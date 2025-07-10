@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahak Agrawal | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Portfolio<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="content" data-aos="fade-up">
+      <img src="profile.jpeg" alt="Mahak Agrawal" class="hero-img" />
+      <h1>I'm <span class="highlight">Mahak Agrawal</span></h1>
+      <p><span id="typed-text"></span><span class="cursor">|</span></p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <section class="about section" id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I'm a 2nd-year B.Tech Mechanical Engineering student at MNNIT Allahabad. I love programming, solving DSA problems, and building cool tech projects.
+    </p>
+  </section>
+
+  <section class="skills section" id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><i class="fab fa-html5"></i><span>HTML</span></div>
+      <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+      <div class="skill"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="fas fa-code"></i><span>C++ (DSA)</span></div>
+      <div class="skill"><i class="fab fa-python"></i><span>Python (Basics)</span></div>
+      <div class="skill"><i class="fas fa-cogs"></i><span>Mechanical Engg</span></div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Tribute Website</h3>
+        <p>A responsive website paying tribute to a famous personality using HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This beautiful and interactive portfolio site you're viewing now!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="form-message"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mahak Agrawal. Made with ❤️</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
